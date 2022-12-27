@@ -63,11 +63,15 @@ button:hover{
 }
 .advanced_words{
     border-radius: 25px;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-left: 20%;
     border: 1px solid black;
     padding: 7px; 
     width: 125%;
     margin-left: 1%;
     height: 13px; 
+}
+.example{
+    padding-left: 20%;
+    font-size: 80%;
 }
