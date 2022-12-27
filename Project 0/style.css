@@ -1,11 +1,18 @@
+body{
+    background-color: whitesmoke;
+}
+
 button{
     padding: 7px;
     margin: 10px;
-    background-color:azure;
+    background-color:rgb(0, 102, 255);
+    color:white;
     cursor: pointer;
+    border: 0;
+    border-radius: 25px;
 }
 button:hover{
-    background-color: aliceblue;
+    background-color: blue;
 }
 .tab{
         float: right;
@@ -16,33 +23,51 @@ button:hover{
     margin-left: 29%;
     position: relative;
     top: 50%;
-    transform: translateY(1400%);
-    font-family: sans-serif;
+    transform: translateY(250%);
 }
 .center{
     margin: auto;
     position: relative;
     top: 50%;
-    transform: translateY(600%);
+    transform: translateY(575%);
     width: 50%;
-    border: 1px solid black;
     padding: 10px 0;
 }
 .search-bar{
-    margin: auto;
+    border-radius: 25px;
+    border: 1px solid gray;
+    outline-color: rgb(0, 102, 255);
+    padding: 10px; 
     width: 90%;
-    border: 1px solid black;
-    margin-left: 4%;
-    padding: 7px;
+    margin-left: 1%;
+    height: 13px; 
 }
 .search{
     margin-top: 10px;
-    margin-left: 44%;
+    margin-left: 40%;
     margin-right: 50%;
-    padding: 7px 0;
-    background-color:azure;
+    padding: 7px;
+    background-color:rgb(0, 102, 255);
+    color:white;
     cursor: pointer;
+    border: 0;
+    border-radius: 25px;
   }
 .search:hover{
-    background-color: aliceblue; 
+    background-color: blue; 
   }
+.advanced_label{
+    margin: auto;
+    padding: 20px;
+    padding-right: 50px;
+}
+.advanced_words{
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 20%;
+    border: 1px solid black;
+    padding: 7px; 
+    width: 125%;
+    margin-left: 1%;
+    height: 13px; 
+}
